@@ -50,7 +50,7 @@ console.log(Object.values(Me));
 const myFavoriteFood = {
   title: "Salad",
   portion: 2,
-  ingredients: ["salades", "tomatos", "salt", "eggs"],
+  ingredients: ["salades", "tomatos", "salt", "eggs","oignons"],
 };
 console.log(myFavoriteFood.title);
 console.log(myFavoriteFood.portion);
