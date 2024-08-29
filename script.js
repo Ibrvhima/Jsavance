@@ -63,7 +63,7 @@ myFavoriteFood.ingredients.forEach((element) => {
 
 //Créez une fonction JavaScript à l'intérieur d'un objet qui trouve le maximum de 3 nombres. Appelez maintenant cette fonction de l'objet et imprimez le nombre maximum.
 
-const findMaiximumNumber = {
+const findMaximumNumber = {
   maxNumber: function (number1, number2, number3) {
     return Math.max(number1, number2, number3);
   },
