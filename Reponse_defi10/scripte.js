@@ -23,3 +23,10 @@ wordByWord.forEach((element) => {
     element.charAt(0).toUpperCase() + element.slice(1);
   console.log(uperCase(element));
 });
+
+function capitalize(chaine){
+  const word = chaine.split(' ')
+  const newTable = word.map(word =>{
+    return word.charAt(0).toUpperCase() + word.slice(1)
+  })
+}
